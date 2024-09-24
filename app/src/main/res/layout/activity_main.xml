@@ -28,23 +28,23 @@
             <RadioButton
                 android:id="@+id/q_11"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Kotlin" />
+                android:layout_height="48dp"
+                android:text="@string/kotlin" />
             <RadioButton
                 android:id="@+id/q_12"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Java" />
+                android:layout_height="48dp"
+                android:text="@string/java" />
             <RadioButton
                 android:id="@+id/q_13"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Swift" />
+                android:layout_height="48dp"
+                android:text="@string/swift" />
             <RadioButton
                 android:id="@+id/q_14"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="C++" />
+                android:layout_height="48dp"
+                android:text="@string/c" />
         </RadioGroup>
         <TextView
             android:id="@+id/question_2"
@@ -65,23 +65,23 @@
             <RadioButton
                 android:id="@+id/q_21"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Firebase" />
+                android:layout_height="48dp"
+                android:text="@string/firebase" />
             <RadioButton
                 android:id="@+id/q_22"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="SQLite" />
+                android:layout_height="48dp"
+                android:text="@string/sqlite" />
             <RadioButton
                 android:id="@+id/q_23"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="MySQL" />
+                android:layout_height="48dp"
+                android:text="@string/mysql" />
             <RadioButton
                 android:id="@+id/q_24"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="PostgreSQL" />
+                android:layout_height="48dp"
+                android:text="@string/postgresql" />
         </RadioGroup>
         <TextView
             android:id="@+id/question_3"
@@ -102,23 +102,23 @@
             <RadioButton
                 android:id="@+id/q_31"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="res/values/styles.xml" />
+                android:layout_height="48dp"
+                android:text="@string/res_values_styles_xml" />
             <RadioButton
                 android:id="@+id/q_32"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="AndroidManifest.xml" />
+                android:layout_height="48dp"
+                android:text="@string/androidmanifest_xml" />
             <RadioButton
                 android:id="@+id/q_33"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="build.gradle" />
+                android:layout_height="48dp"
+                android:text="@string/build_gradle" />
             <RadioButton
                 android:id="@+id/q_34"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="res/values/strings.xml" />
+                android:layout_height="48dp"
+                android:text="@string/res_values_strings_xml" />
         </RadioGroup>
         <TextView
             android:id="@+id/question_4"
@@ -140,23 +140,23 @@
             <RadioButton
                 android:id="@+id/q_41"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Intent" />
+                android:layout_height="48dp"
+                android:text="@string/intent" />
             <RadioButton
                 android:id="@+id/q_42"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Fragment" />
+                android:layout_height="48dp"
+                android:text="@string/fragment" />
             <RadioButton
                 android:id="@+id/q_43"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Service" />
+                android:layout_height="48dp"
+                android:text="@string/service" />
             <RadioButton
                 android:id="@+id/q_44"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Broadcast Receiver" />
+                android:layout_height="48dp"
+                android:text="@string/broadcast_receiver" />
         </RadioGroup>
         <TextView
             android:id="@+id/question_5"
@@ -176,23 +176,23 @@
             <RadioButton
                 android:id="@+id/q_51"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="RelativeLayout" />
+                android:layout_height="48dp"
+                android:text="@string/relativelayout" />
             <RadioButton
                 android:id="@+id/q_52"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="GridLayout" />
+                android:layout_height="48dp"
+                android:text="@string/gridlayout" />
             <RadioButton
                 android:id="@+id/q_53"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="LinearLayout" />
+                android:layout_height="48dp"
+                android:text="@string/linearlayout" />
             <RadioButton
                 android:id="@+id/q_54"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="TabLayout" />
+                android:layout_height="48dp"
+                android:text="@string/tablayout" />
         </RadioGroup>
         <TextView
             android:id="@+id/question_6"
@@ -207,26 +207,26 @@
         <CheckBox
             android:id="@+id/q_61"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="onCreate()"
+            android:layout_height="48dp"
+            android:text="@string/oncreate"
             android:textStyle="italic" />
         <CheckBox
             android:id="@+id/q_62"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="onStart()"
+            android:layout_height="48dp"
+            android:text="@string/onstart"
             android:textStyle="italic" />
         <CheckBox
             android:id="@+id/q_63"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="onDestroy()"
+            android:layout_height="48dp"
+            android:text="@string/ondestroy"
             android:textStyle="italic" />
         <CheckBox
             android:id="@+id/q_64"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="onResume()"
+            android:layout_height="48dp"
+            android:text="@string/onresume"
             android:textStyle="italic" />
         <TextView
             android:id="@+id/question_7"
@@ -241,26 +241,26 @@
         <CheckBox
             android:id="@+id/q_71"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="RelativeLayout"
+            android:layout_height="48dp"
+            android:text="@string/relativelayout"
             android:textStyle="italic" />
         <CheckBox
             android:id="@+id/q_72"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="GridLayout"
+            android:layout_height="48dp"
+            android:text="@string/gridlayout"
             android:textStyle="italic" />
         <CheckBox
             android:id="@+id/q_73"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="LinearLayout"
+            android:layout_height="48dp"
+            android:text="@string/linearlayout"
             android:textStyle="italic" />
         <CheckBox
             android:id="@+id/q_74"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="TabLayout"
+            android:layout_height="48dp"
+            android:text="@string/tablayout"
             android:textStyle="italic" />
         <TextView
             android:id="@+id/question_8"
@@ -281,23 +281,23 @@
             <RadioButton
                 android:id="@+id/q_81"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="layout_width" />
+                android:layout_height="48dp"
+                android:text="@string/layout_width" />
             <RadioButton
                 android:id="@+id/q_82"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="layout_height" />
+                android:layout_height="48dp"
+                android:text="@string/layout_height" />
             <RadioButton
                 android:id="@+id/q_83"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="padding" />
+                android:layout_height="48dp"
+                android:text="@string/padding" />
             <RadioButton
                 android:id="@+id/q_84"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="orientation" />
+                android:layout_height="48dp"
+                android:text="@string/orientation" />
         </RadioGroup>
         <TextView
             android:id="@+id/question_9"
@@ -319,23 +319,23 @@
             <RadioButton
                 android:id="@+id/q_91"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="To fetch data from the database" />
+                android:layout_height="48dp"
+                android:text="@string/to_fetch_data_from_the_database" />
             <RadioButton
                 android:id="@+id/q_92"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="To handle user input" />
+                android:layout_height="48dp"
+                android:text="@string/to_handle_user_input" />
             <RadioButton
                 android:id="@+id/q_93"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="To retrieve a view by its ID" />
+                android:layout_height="48dp"
+                android:text="@string/to_retrieve_a_view_by_its_id" />
             <RadioButton
                 android:id="@+id/q_94"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="To create an activity" />
+                android:layout_height="48dp"
+                android:text="@string/to_create_an_activity" />
         </RadioGroup>
         <TextView
             android:id="@+id/question_10"
@@ -350,26 +350,26 @@
         <CheckBox
             android:id="@+id/q_101"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Volley"
+            android:layout_height="48dp"
+            android:text="@string/volley"
             android:textStyle="italic" />
         <CheckBox
             android:id="@+id/q_102"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Retrofit"
+            android:layout_height="48dp"
+            android:text="@string/retrofit"
             android:textStyle="italic" />
         <CheckBox
             android:id="@+id/q_103"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="OkHttp"
+            android:layout_height="48dp"
+            android:text="@string/okhttp"
             android:textStyle="italic" />
         <CheckBox
             android:id="@+id/q_104"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Glide"
+            android:layout_height="48dp"
+            android:text="@string/glide"
             android:textStyle="italic" />
         <LinearLayout
             android:layout_width="match_parent"
@@ -380,37 +380,40 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Result"
+                android:text="@string/result"
                 android:background="@drawable/custom_button"
                 android:textColor="@color/black"
                 android:textStyle="bold"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginBottom="20dp"
-                android:padding="10dp" />
+                android:padding="10dp"
+                tools:ignore="ButtonStyle" />
             <Button
                 android:id="@+id/submit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Submit"
+                android:text="@string/submit"
                 android:background="@drawable/custom_button"
                 android:textColor="@color/black"
                 android:textStyle="bold"
                 android:padding="10dp"
-                android:layout_marginEnd="10dp" />
+                android:layout_marginEnd="10dp"
+                tools:ignore="ButtonStyle" />
             <Button
                 android:id="@+id/delete"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Clear"
+                android:text="@string/clear"
                 android:background="@drawable/custom_button"
                 android:textColor="@color/black"
                 android:textStyle="bold"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"
-                android:padding="10dp" />
+                android:padding="10dp"
+                tools:ignore="ButtonStyle" />
         </LinearLayout>
     </LinearLayout>
 </ScrollView>
