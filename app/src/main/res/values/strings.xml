@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Assignment_2</string>
+    <string name="q_1">1. Which language is not officially supported in Android Studio for Android development? (SCQ)</string>
+    <string name="q_2">2. What is the default database used in Android for local storage? (SCQ)</string>
+    <string name="q_3">3. Which file contains the permissions, services, and activities used in an Android app? (SCQ)</string>
+    <string name="q_4">4. Which of the following is used to pass data between two Android activities? (SCQ)</string>
+    <string name="q_5">5. Which of the following are not valid layout types in Android? (SCQ)</string>
+    <string name="q_6">6.  Which of the following are lifecycle methods of an Android activity? (MCQ)</string>
+    <string name="q_7">7.  Which of the following are valid layout types in Android? (MCQ)</string>
+    <string name="q_8">8.  Which XML attribute is used to define the width of a view in Android? (SCQ)</string>
+    <string name="q_9">9. What is the purpose of the findViewById() method? (SCQ)</string>
+    <string name="q_10">10.  Which of the following is used to make network requests in Android? (MCQ)</string>
+</resources>
