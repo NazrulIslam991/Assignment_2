@@ -413,6 +413,20 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"
                 android:padding="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="ButtonStyle" />
+            <Button
+                android:id="@+id/rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/rating"
+                android:background="@drawable/custom_button"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:padding="10dp"
                 tools:ignore="ButtonStyle" />
         </LinearLayout>
     </LinearLayout>

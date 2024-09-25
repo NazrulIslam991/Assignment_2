@@ -3,6 +3,7 @@ package com.example.assignment_2;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -19,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     // Declare RadioGroup, CheckBox, Button, and TextView variables
     private RadioGroup RG_1, RG_2, RG_3, RG_4, RG_5, RG_6, RG_7;
     private CheckBox q11, q12, q13, q14, q21, q22, q23, q24, q31, q32, q33, q34;
-    private Button submit, submited_result, delete;
+    private Button submit, submited_result, delete,rating;
     private TextView t1, t2, t3, t4, t5, t6, t7, t8, t9, t10;
 
     // ArrayLists to hold questions, answers, and correct answers
@@ -61,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
         submit = findViewById(R.id.submit);
         submited_result = findViewById(R.id.show_result);
         delete = findViewById(R.id.delete);
+        rating = findViewById(R.id.rating);
 
         t1 = findViewById(R.id.question_1);
         t2 = findViewById(R.id.question_2);
@@ -84,6 +86,16 @@ public class MainActivity extends AppCompatActivity {
         Ans.add("layout_width");
         Ans.add("To retrieve a view by its ID");
         Ans.add("Volley,Retrofit,OkHttp");
+
+
+        rating.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,Rating_Activity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
 
         // Handle the submit button click event
         submit.setOnClickListener(new View.OnClickListener() {
